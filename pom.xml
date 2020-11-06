@@ -14,8 +14,8 @@
         <jackson.version>2.11.2</jackson.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 
         <sonar.java.pmd.reportPaths>./target/pmd.xml</sonar.java.pmd.reportPaths>
         <sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
@@ -24,6 +24,11 @@
         <sonar.projectKey>refactoring-java-kata</sonar.projectKey>
         <sonar.organization>meixuesong</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+<!--        <sonar.projectKey>refactoring</sonar.projectKey>-->
+<!--        <sonar.host.url>http://localhost:10200/sonarqube</sonar.host.url>-->
+<!--        <sonar.login>18047edff254b9f2ddb037bc07f62689f2960c77</sonar.login>-->
+
     </properties>
 
     <dependencies>
