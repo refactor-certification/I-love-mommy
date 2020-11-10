@@ -23,11 +23,6 @@
         <sonar.projectKey>refactoring-java-kata</sonar.projectKey>
         <sonar.organization>meixuesong</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-
-<!--        <sonar.projectKey>refactoring</sonar.projectKey>-->
-<!--        <sonar.host.url>http://localhost:10200/sonarqube</sonar.host.url>-->
-<!--        <sonar.login>18047edff254b9f2ddb037bc07f62689f2960c77</sonar.login>-->
-
     </properties>
 
     <dependencies>
