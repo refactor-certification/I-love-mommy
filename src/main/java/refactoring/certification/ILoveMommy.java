@@ -25,7 +25,7 @@ public class ILoveMommy {
             for (int i1 = 0; i1 < input.length(); i1++) {
                 char character1 = input.charAt(i1);
                 boolean result1 = false;
-                if ("aieou".contains(String.valueOf(character1))) {
+                if ("aeiou".contains(String.valueOf(character1))) {
                     result1 = true;
                 }
                 if (result1) {
@@ -36,7 +36,7 @@ public class ILoveMommy {
                 for (int i = 0; i < inputAsBuffer.length(); i++) {
                     char character = inputAsBuffer.charAt(i);
                     boolean result = false;
-                    if ("aieou".contains(String.valueOf(character))) {
+                    if ("aeiou".contains(String.valueOf(character))) {
                         result = true;
                     }
                     if (result) {
@@ -46,8 +46,9 @@ public class ILoveMommy {
                             i = i + "mommy".length() - 1;
                             consecutive = true;
                             continue;
+                        } else {
+                            i = i - 1;
                         }
-                        consecutive = false;
                     } else {
                         consecutive = false;
                     }

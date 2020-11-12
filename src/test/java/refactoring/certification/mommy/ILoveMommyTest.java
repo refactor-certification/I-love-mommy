@@ -23,6 +23,7 @@ public class ILoveMommyTest {
                 {"aba", "mommybmommy"},
                 {"hard", "hard"},
                 {"haa", "hmommy"},
+                {"aeiou", "mommy"},
                 {"aeioubAEIOU", "mommybmommy"},
         };
 
